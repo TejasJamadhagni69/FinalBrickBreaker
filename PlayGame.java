@@ -176,10 +176,10 @@ public class PlayGame extends JPanel implements KeyListener, ActionListener{
 	}
 	public void moveRight() {
 		play = true;
-		playerX += 20;
+		playerX += 8;
 	}
 	public void moveLeft() {
 		play = true;
-		playerX -= 20;
+		playerX -= 8;
 	}
 }
